@@ -1,6 +1,6 @@
-# HKU-CIVL-AI-in-Civil-Engineering
+# AI Course Code
 
-Welcome to the "AI in Civil Engineering" course Python tutorial and exercises repository! This repository serves as a comprehensive resource for our course, offering a series of tutorials and exercises to help you master key concepts and tools for applying artificial intelligence techniques in the field of civil engineering. 
+Welcome to the AI course Python tutorial and exercises repository! This repository serves as a comprehensive resource for our course, offering a series of tutorials and exercises to help you master key concepts and tools for applying artificial intelligence techniques in the field of civil engineering. 
 
 ## Course Description
 
