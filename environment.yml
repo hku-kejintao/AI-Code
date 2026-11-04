@@ -1,0 +1,20 @@
+name: ai-course
+
+channels:
+  - defaults
+
+dependencies:
+  - python=3.12
+  - pip
+  - jupyterlab
+  - ipykernel
+  - pip:
+      - numpy
+      - pandas
+      - matplotlib
+      - scikit-learn
+      - xgboost
+      - torch
+      - torchinfo
+      - packaging
+      - "transformers>=4.57,<5"

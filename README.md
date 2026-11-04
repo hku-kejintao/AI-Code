@@ -67,35 +67,19 @@ The active tutorials, exercises, and their required data are organised as follow
 
 Folder `13 Others` archives previous versions and supplementary materials. The active lesson folders contain only the current `tutorialXX` and `exerciseXX` notebooks together with the local files they require.
 
-## Install the required third-party libraries
+## Set up the Python environment
 
-After installing [anaconda](https://www.anaconda.com/), you can prepare some required third-party libraries before starting the tutorials.
+Install [Anaconda](https://www.anaconda.com/) first. The file `environment.yml` in this repository creates one environment, named `ai-course`, with Python 3.12 and the packages used by the notebooks: NumPy, pandas, Matplotlib, scikit-learn, XGBoost, PyTorch, torchinfo, and Transformers.
 
-### Downloading Third-Party Libraries: Windows Computers:
+On Windows, open Anaconda Prompt. On Mac, open Terminal. Move to the folder that contains `environment.yml`, then run:
 
-1. Open the "Start" menu, search for and open "Command Prompt."
-2. In the Command Prompt window, enter the following command to install the required third-party libraries:
-
-```python
-pip install scikit-learn torch tensorflow
+```bash
+conda env create -f environment.yml
+conda activate ai-course
+python -m ipykernel install --user --name ai-course --display-name "AI Course"
 ```
 
-### Downloading Third-Party Libraries: Mac Computers:
-
-1. Open "Spotlight Search" (Shortcut: Command + Space), search for "Terminal," and then open the Terminal application.
-2. In the Terminal window, enter the following command to install the required third-party libraries:
-
-```python
-pip install scikit-learn torch tensorflow torchvision torchinfo
-```
-
-In both cases, the installation command is the same. Make sure that Python is installed on your computer, and you can use the pip command in the terminal. Please note that if you're already using a virtual environment, ensure that you're running the command within the desired virtual environment. Additionally, if you encounter any issues during the installation process, you may need to check your network connection, Python environment, and pip configuration.
-
-- If you don't choose to start Python with anaconda, you may need to run the following commands in your terminal to install some important packages.
-
-```python
-pip install numpy pandas matplotlib
-```
+In Jupyter, VS Code, or Cursor, choose the kernel named **AI Course** before running a notebook. To update an environment you already created, run `conda env update -f environment.yml --prune` from the same folder.
 
 ## Usage of this repository
 
