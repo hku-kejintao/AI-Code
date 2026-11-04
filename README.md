@@ -34,16 +34,38 @@ This course will majorly cover the following contents:
   * Convolutional neural networks
   * Graph neural networks
   * Recurrent neural networks
+  * Attention mechanisms
+  * Large language models
   * Applications in engineering problems
 - Unsupervised Learning
   * K-means clustering
   * Expectation maximization
   * Principal components analysis
   * Applications in engineering problems
-- Reinforcement Learning (optional)
-  * Markov decision process
-  * Model-free prediction and control
-  * Applications in engineering problems   
+- Transportation and Civil Engineering Applications
+  * Transportation applications I
+  * Transportation applications II
+  * Applications beyond transportation
+
+## Current lesson folders
+
+The active tutorials, exercises, and their required data are organised as follows:
+
+1. Practices of Python language
+2. Regression models
+3. Classification models
+4. Artificial neural networks
+5. Transportation applications I
+6. Unsupervised learning
+7. Recurrent neural networks
+8. Convolutional neural networks
+9. Graph neural networks
+10. Attention mechanisms
+11. Large language models
+12. Transportation applications II
+13. Others
+
+Folder `13 Others` archives previous versions and supplementary materials. The active lesson folders contain only the current `tutorialXX` and `exerciseXX` notebooks together with the local files they require.
 
 ## Install the required third-party libraries
 
