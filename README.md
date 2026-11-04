@@ -71,15 +71,17 @@ Folder `13 Others` archives previous versions and supplementary materials. The a
 
 Install [Anaconda](https://www.anaconda.com/) first. The file `environment.yml` in this repository creates one environment, named `ai-course`, with Python 3.12 and the packages used by the notebooks: NumPy, pandas, Matplotlib, scikit-learn, XGBoost, PyTorch, torchinfo, and Transformers.
 
+For a graphical installation, open **Anaconda Navigator**, select **Environments**, choose **Import**, and select `environment.yml` from the extracted `AI-Code` folder. After the import finishes, return to **Home**, select `ai-course` under **Applications on**, and launch JupyterLab.
+
 On Windows, open Anaconda Prompt. On Mac, open Terminal. Move to the folder that contains `environment.yml`, then run:
 
 ```bash
 conda env create -f environment.yml
 conda activate ai-course
-python -m ipykernel install --user --name ai-course --display-name "AI Course"
+jupyter lab
 ```
 
-In Jupyter, VS Code, or Cursor, choose the kernel named **AI Course** before running a notebook. To update an environment you already created, run `conda env update -f environment.yml --prune` from the same folder.
+Launch JupyterLab only after activating `ai-course`, or launch it from the `ai-course` environment in Anaconda Navigator. To update an environment you already created, run `conda env update -f environment.yml --prune` from the same folder.
 
 ## Usage of this repository
 
